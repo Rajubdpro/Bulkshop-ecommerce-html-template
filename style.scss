@@ -299,6 +299,27 @@ img {
 				margin-right: 15px;
 			}
 		}
+
+		.accordion-item {
+			.card-body {
+				.btn {
+					width: 100%;
+					text-align: center;
+					padding: 10px 10px;
+					border: 1px solid #eee;
+					letter-spacing: 1px !important;
+
+					.item-name {
+						padding-left: 8px;
+					}
+
+					&:hover {
+						color: $base-color1;
+						border: 1px solid $base-color1;
+					}
+				}
+			}
+		}
 	}
 
 	.active,
@@ -1540,7 +1561,7 @@ img {
 
 .qt-background {
 	overflow: hidden !important;
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 100px 0;
 	background-attachment: fixed;

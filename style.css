@@ -294,6 +294,23 @@ img {
   margin-right: 15px;
 }
 
+#catagory .accordion .accordion-item .card-body .btn {
+  width: 100%;
+  text-align: center;
+  padding: 10px 10px;
+  border: 1px solid #eee;
+  letter-spacing: 1px !important;
+}
+
+#catagory .accordion .accordion-item .card-body .btn .item-name {
+  padding-left: 8px;
+}
+
+#catagory .accordion .accordion-item .card-body .btn:hover {
+  color: #198754;
+  border: 1px solid #198754;
+}
+
 #catagory .active,
 #catagory .accordion:hover {
   background-color: #ccc;
